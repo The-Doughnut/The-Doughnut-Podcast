@@ -1,0 +1,18 @@
+h1{
+	font-family: arial;
+	border-style: solid;
+	background-color: red;
+	color: white;
+}
+h3{
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+p{
+	width: 50%;
+	background-color: white;
+}
+body{
+	background-image: url('background1.jpg');
+}
