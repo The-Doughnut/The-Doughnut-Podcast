@@ -16,3 +16,8 @@ p{
 body{
 	background-image: url('background1.jpg');
 }
+#episode{
+	background-color: red;
+	color: white;
+	font-family: arial;
+}
