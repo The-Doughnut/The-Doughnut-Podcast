@@ -12,6 +12,7 @@ h3{
 p{
 	width: 50%;
 	background-color: white;
+	color: black;
 }
 body{
 	background-image: url('background1.jpg');
@@ -20,4 +21,8 @@ body{
 	background-color: red;
 	color: white;
 	font-family: arial;
+}
+ul{
+	background: white;
+	width: 50%;
 }
