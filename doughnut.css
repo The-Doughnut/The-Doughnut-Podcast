@@ -26,3 +26,8 @@ ul{
 	background: white;
 	width: 50%;
 }
+#announcement{
+	font-family: "Arial", sans-serif;
+	background-color: red;
+	color: white;
+}
