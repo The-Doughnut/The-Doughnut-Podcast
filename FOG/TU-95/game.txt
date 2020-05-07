@@ -1,0 +1,14 @@
+Title: TU 95
+
+Width: 670
+
+Height: 450
+
+Tags: Aeroplane, Airplane, Simulation, Flying
+
+Description:
+Flying a plane has never been easier...easier to access, that is! Prepare for the training of your life as you simulate, with your keyboard, the essence of flying a plane. Control your flaps carefully to maintain your altitude, and don't forget to keep an eye on your speed. If one little part is off, it could spell the end for your flying career, and your pilot!
+
+Instructions:
+&middot; Control Your Plane - Arrow keys
+
