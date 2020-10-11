@@ -1,33 +1,102 @@
 h1{
 	font-family: arial;
 	border-style: solid;
-	background-color: red;
-	color: white;
+	background-color: grey;
+	color: orange;
 }
 h3{
-	background-color: red;
-	color: white;
-	text-align: center;
+	justify-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	color: orange;
+	text-align: left;
+	font-family: arial;
 }
+
+h4{
+	justify-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: grey;
+	color: orange;
+	text-align: left;
+	font-family: arial;
+}
+
 p{
-	width: 50%;
-	background-color: white;
-	color: black;
+	justify-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: orange;
+	background-color: #646464;
+	font-family: arial;
 }
+
+marquee{
+	color: orange;
+	font-family: arial;
+	background-color: #646464;
+}
+
+object{
+	margin-left: 10%;
+}
+
+audio{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+}
+
+iframe{
+	margin-left: 10%;
+}
+
 body{
-	background-image: url('background1.jpg');
+	background-color: darkgrey;
 }
 #episode{
-	background-color: red;
-	color: white;
+	background-color: grey;
+	color: orange;
 	font-family: arial;
 }
 ul{
-	background: white;
-	width: 50%;
+	justify-content: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	color: orange;
+	background-color: #646464;
+	font-family: arial;
 }
 #announcement{
 	font-family: "Arial", sans-serif;
-	background-color: red;
-	color: white;
+	background-color: grey;
+	color: orange;
+	margin-left: 10%;
+}
+
+a:link{
+	color: orange;
+}
+
+a:visited{
+	color: #E59400;
+}
+
+a:hover{
+	color: red;
+}
+
+footer{
+	margin-left: 10%;
+}
+
+#menu{
+	margin-left: 10%;
 }
