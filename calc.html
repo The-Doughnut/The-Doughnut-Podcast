@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Online Calculator</title>
+	<link rel="stylesheet" type="text/css" href="doughnut.css">
+</head>
+<body>
+	<img src="logo.png" alt="The Doughnut Podcast">
+	<h2><a id="announcement" href="flash_selection.html">FLASH GAMES</a><a id="announcement"  href="faq.html">FAQ</a><a id="announcement"  href="extras.html">Extras</a></h2>
+	<marquee behavior="scroll" direction="left">Next episode: Recording some time in December &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Topic: School Stories &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Podcasters: PROJECT_A, confused man, Doughnut, and possibly more</marquee>
+	<h3>Online Calculator</h3>
+	<form>
+		First Number: <input type="text" id="firstNumber"><br>
+		Second Number: <input type="text" id="secondNumber"><br>
+		<input type="button" onClick="addBy()" value="+">
+		<input type="button" onClick="subtractBy()" value="-">
+		<input type="button" onClick="multiplyBy()" Value="*">
+		<input type="button" onClick="divideBy()" Value="/">
+		<input type="button" onClick="remainderBy()" value="Remainder">
+		<input type="button" onClick="squarerootBy()" value="&#8730;">
+	</form>
+	<p>Your answer: <span id="result"></span> <br><span id="result2"></span></p>
+	<script type="text/javascript" src="calc.js">
+	</script>
+	<br>
+	<a id="menu" href="../index.html">Return to main page</a>
+	<footer>
+		&#169; 2019-2020, The Doughnut Podcast
+	</footer>
+	
+</body>
+</html>
