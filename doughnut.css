@@ -64,6 +64,7 @@ body{
 	background-color: grey;
 	color: orange;
 	font-family: arial;
+	font-size: 24px;
 }
 ul{
 	justify-content: center;
@@ -114,4 +115,13 @@ footer{
 form{
 	margin-left: 10%;
 	font-family: "Arial", sans-serif;
+}
+
+table, tr, th, td{
+	margin-left: 10%;
+	width: 25%;
+	border: 1px solid black;
+	color: orange;
+	background-color: #646464;
+	font-family: arial;
 }
