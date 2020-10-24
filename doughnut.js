@@ -7,7 +7,7 @@ function startTime() {
   m = addZero(m);
   s = addZero(s);
   ms = addZeroms(ms);
-  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al: 23&deg;C with 40% chance of showers for October 23, 2020";
+  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al, Québec: 10&deg;C with chance of showers for October 24, 2020";
   var t = setTimeout(startTime, 1);
 }
 function addZero(i) {
