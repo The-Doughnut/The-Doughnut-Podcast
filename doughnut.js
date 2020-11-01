@@ -7,7 +7,7 @@ function startTime() {
   m = addZero(m);
   s = addZero(s);
   ms = addZeroms(ms);
-  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp SMOG WARNING: Smog warning terminated. Today's weather for Montr&eacute;al: high 4&deg;C, low 0&deg;C. Wind chill: -9&deg;C. Sunny for October 31, 2020 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UV Index: 3";
+  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al: high 10&deg;C, low 3&deg;C. Wind chill: ?&deg;C. Sunny for November 1, 2020 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UV Index: 1";
   var t = setTimeout(startTime, 1);
 }
 function addZero(i) {
