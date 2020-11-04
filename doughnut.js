@@ -7,7 +7,7 @@ function startTime() {
   m = addZero(m);
   s = addZero(s);
   ms = addZeroms(ms);
-  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al: high 2&deg;C, low -3&deg;C. Wind chill: -8&deg;C. A mix of sun and cloud for November 2, 2020. 40 percent chance of flurries early this morning. Wind northwest 20 km/h gusting to 40. [Environment Canada] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UV Index: 2";
+  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al: high 9&deg;C, low 7&deg;C (?). Wind chill: ?&deg;C. Mainly sunny for November 4, 2020. [Environment Canada] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UV Index: 2";
   var t = setTimeout(startTime, 1);
 }
 function addZero(i) {
