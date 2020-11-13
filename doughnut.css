@@ -137,3 +137,8 @@ code{
 	margin-right: 10%;
 	pointer-events: none;
 }
+
+.buttons{
+	margin-left: 10%;
+	margin-right: 10%;
+}
