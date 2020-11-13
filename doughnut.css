@@ -132,3 +132,8 @@ table, tr, th, td{
 code{
 	margin-left: 10%;
 }
+
+.weatherwidget-io{
+	margin-right: 10%;
+	pointer-events: none;
+}
