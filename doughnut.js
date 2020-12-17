@@ -7,7 +7,7 @@ function startTime() {
   m = addZero(m);
   s = addZero(s);
   ms = addZeroms(ms);
-  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Today's weather for Montr&eacute;al, Qu&eacute;bec: [Weather temporarily unavailable] &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp UV Index: [UV temporarily unavailable]";
+  document.getElementById('time').innerHTML = "Current time: " + h + ":" + m + ":" + s + ":" + ms + "";
   var t = setTimeout(startTime, 1);
 }
 function addZero(i) {
