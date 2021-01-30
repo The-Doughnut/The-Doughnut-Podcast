@@ -8,7 +8,7 @@
 <body>
 	<img src="logo.png" alt="The Doughnut Podcast">
 	<h2><a id="announcement"  href="index.html">HOME</a><a id="announcement" href="flash_selection.html">FLASH GAMES</a><a id="announcement"  href="faq.html">FAQ</a><a id="announcement"  href="extras.html">Extras</a></h2>
-	<marquee behavior="scroll" direction="left">Ruffle (Flash Player emulator) will be installed on this site shortly...</marquee>
+	<marquee behavior="scroll" direction="left" id="DisplayText"></marquee>
 	<h3>Adobe Flash Player</h3>
 	<object width="793" height="170">
 		<embed src="Flash/flash_about_793x170.swf" width="793" height="170"></embed>
@@ -17,11 +17,24 @@
 	<object>
 		<embed src="Flash/mini_FMA_about_01.swf" width="793"></embed>
 	</object>
-	<p>The Flash Player plugin is essential if you want to view this website properly. If you do not see any animation on this webpage, it means that you do not have Flash installed. Please click <a href="https://ruffle.rs/">here</a> to get a Flash Player <b>emulator</b> plugin.</p>
+	<p>
+		The Flash Player plugin is essential if you want to view this website properly. If you do not see any animation on this webpage, it means that you do not have Flash installed. Please click <a href="https://ruffle.rs/">here</a> to get a Flash Player <b>emulator</b> plugin called Ruffle.<br><br>
+		As of now, Ruffle is still in development and many Flash content may not be viewed properly with it. Eventually it will become stable, but as of now if you absolutely want to view Flash content without bugs you may download an old Flash Player version if security risks are no concern.<br><br>
+		Below are old versions of Flash Player.<br>
+		<b>DISCLAIMER: I am not responsible for security vulnerabilities caused by old Flash Player plugins.</b> I guess use a virtual machine?<br>
+		<a href="https://archive.org/download/flashplayerarchivedversions2/357/">Flash Player version 32.0.0.334</a><br>
+		<a href="https://archive.org/download/flashplayerarchivedversions2/331/">Flash Player version 29.0.0.113</a><br>
+		<a href="https://archive.org/download/flashplayerarchivedversions2/330/">Flash Player version 28.0.0.161</a><br>
+		<br><br>
+		If you are good with tech, you can also modify your current version of Flash Player if the kill-switch has already been activated.
+		On page 47 of <a href="https://www.adobe.com/content/dam/acom/en/devnet/flashplayer/articles/flash_player_admin_guide/pdf/latest/flash_player_32_0_admin_guide.pdf">Adobe's documentation of Flash Player 32</a>, you can figure out that <code id="bruh">EnableAllowList=1</code> can be added to the <code id="bruh">mms.cfg</code> file, which may allow you to disable the kill-switch. I have not tested it out myself, so I do not know how well it works. If you need additional help, you can read more of the PDF.
+		<br><br>
+		One more thing: your web browser. Chances are, your web browser dropped Flash support in January 2021. So if you are going to download an older version of Flash Player, you should download an older version of your browser to have Flash support, but beware that you will not have the latest security updates. 
+	</p>
 	<a id="menu" href="index.html">Return to main page</a>
 	<footer>
 		&#169; 2019-2020, The Doughnut Podcast
 	</footer>
-	
+	<script src="doughnut.js"></script>
 </body>
 </html>
