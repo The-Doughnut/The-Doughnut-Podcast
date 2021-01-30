@@ -25,3 +25,8 @@ function addZeroms(i){
 }
 
 document.getElementById("DisplayText").innerHTML = "Have a nice day!";
+
+function userAgent() {
+  var x = "Your user agent: " + navigator.userAgent;
+  document.getElementById("agent").innerHTML = x;
+}
