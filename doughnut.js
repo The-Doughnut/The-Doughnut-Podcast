@@ -24,7 +24,7 @@ function addZeroms(i){
   return i;
 }
 
-document.getElementById("DisplayText").innerHTML = "Have a nice day!";
+document.getElementById("DisplayText").innerHTML = "Check out my new game Just Drive in the Extras tab!";
 
 function userAgent() {
   var x = "Your user agent: " + navigator.userAgent;
